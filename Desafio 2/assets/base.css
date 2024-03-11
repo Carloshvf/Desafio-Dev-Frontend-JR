@@ -15,6 +15,12 @@ th {
   padding: 10px;
 }
 
+button {
+  align-items: center;
+  width: 60px;
+  height: 35px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -24,6 +30,19 @@ th {
   min-width: 360px;
 }
 
-.hide {
-  display: none;
+.btns {
+  display: flex;
+  justify-content: right;
+}
+
+.edit {
+  margin-top: 10px;
+  margin-right: 5px;
+  background-color: rgb(14, 207, 233);
+}
+
+.delete {
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: rgb(240, 97, 126);
 }
